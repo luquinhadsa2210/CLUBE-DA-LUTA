@@ -6,9 +6,9 @@ html, body {
   margin-bottom: 30px;
 }
 
-header{
+header {
   font-family: "Abril Fatface", serif;
-  color: rgb(255,65,0);
+  color: rgb(255, 65, 0);
   display: flex;
   border-bottom: solid 1px white;
   position: relative;
@@ -16,11 +16,11 @@ header{
   font-size: 80px;
 }
 
-p{
+p {
   text-align: justify;
 }
 
-.inicio{
+.inicio {
   background: red;
   margin: 20px;
   padding: 20px;
@@ -31,57 +31,58 @@ p{
   box-shadow: 2px 5px 5px gray;
 }
 
-.video{
+.video {
   margin-right: 50px;
 }
 
-.alinha{
-  align-content: center}
+.alinha {
+  align-content: center;
+}
 
-.clipes{
+.clipes {
   display: flex;
   overflow-x: auto;
   gap: 10px;
 }
 
-img{
-  hight: 200px;
+img {
+  height: 200px;
 }
 
-.outros{
+.outros {
   padding-left: 20px;
   padding-right: 20px;
   font-size: 30px;
   color: red;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
-h3{
+h3 {
   border-bottom: 2px solid white;
 }
 
-.outros img{
+.outros img {
   opacity: 0.5;
   gap: 10px;
 }
 
-.outros img:hover{
-  opacity: 1.0;
+.outros img:hover {
+  opacity: 1;
   border: 3px solid red;
   box-shadow: 2px 5px 5px grey;
 }
 
-
-header img{
+header img {
   position: relative;
   z-index: -1;
   margin-left: 400px;
 }
 
-footer{
-    font-family: "Abril Fatface", serif;
+footer {
+  font-family: "Abril Fatface", serif;
   color: red;
   background-color: yellow;
+  opacity: 0.5;
   position: fixed;
   bottom: 0;
   width: 100%;
